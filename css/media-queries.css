@@ -1,7 +1,40 @@
 /* Global */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, p {
+    margin: .5rem;
+}
+h1 {
+    font-size: 4rem;
+}
+nav ul {
+    padding: 0;
+}
+.sub-section {
+    font-style: italic;
+}
+/*  This styling makes the img element resize automatically depending on screen size.
+    As we start working on the desktop styling it may need to be changed. */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh .5em 2vh .5em;
+}
+footer>p {
+    margin: 0;
+}
 
 /* Mobile */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .hidden-on-desktop a{
         /*style*/
         background: #dff;
@@ -30,7 +63,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .hidden-on-desktop {
         display: none;
     }
