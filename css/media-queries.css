@@ -48,14 +48,19 @@ footer>p {
         display: flex;
         justify-content: center;
     }
-    ul li{
+    ul li {
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1em;
         margin-bottom: .5em;
+        justify-content: center;
+        width: 100%;
         background: #ddd;
+    }
+    li a {
+        text-align: center;
+        padding: 1em 100%;
     }
 }
 /* Desktop */
@@ -98,7 +103,7 @@ footer>p {
     footer {
         clear: both;
         padding: 5em 0;
-        margin-bottom: 10em;
+        margin-bottom: 5em;
     }
     img {
         width: 100%;
