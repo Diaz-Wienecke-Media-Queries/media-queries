@@ -60,7 +60,7 @@ footer>p {
     }
     li a {
         text-align: center;
-        padding: 1em 100%;
+        margin: 1em;
     }
 }
 /* Desktop */
