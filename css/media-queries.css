@@ -48,7 +48,6 @@ footer>p {
     h1 {
         display: flex;
         justify-content: center;
-        font-size: xxx-large;
     }
     ul li{
         list-style: none;
@@ -83,7 +82,6 @@ footer>p {
     }
     h1{
         float: left;
-        position: relative;
     }
     section{
         float: left;
